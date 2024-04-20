@@ -14,7 +14,6 @@ pipeline {
                 sh '''
                 sudo apk add python3
                 sudo apk add py3-pip
-                cd app
                 pip install -r requirements.txt
                 '''
             }
@@ -23,7 +22,6 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd app
                 python3 simulation.py
                 '''
             }
