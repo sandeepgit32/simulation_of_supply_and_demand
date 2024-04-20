@@ -12,8 +12,8 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                sudo apk add python3
-                sudo apk add py3-pip
+                apk add python3
+                apk add py3-pip
                 pip install -r requirements.txt
                 '''
             }
