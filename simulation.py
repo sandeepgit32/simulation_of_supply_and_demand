@@ -4,7 +4,7 @@ import random
 # Parameters
 M = 5  # Number of consumers
 N = 3  # Number of producers
-SIMULATION_TIME = 1000  # Simulation time in time units
+SIMULATION_TIME = 50  # Simulation time in time units
 
 # Market parameters
 MAX_PRICE = 100  # Maximum price for the product
